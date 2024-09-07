@@ -13,6 +13,7 @@ import {
   KZ,
   TW,
   GB,
+  ZA,
   FlagComponent,
   ID,
 } from "country-flag-icons/react/1x1";
@@ -207,6 +208,18 @@ export const currencyList: {
       currencyShortForm: "IDR",
       icon: ID,
       iconName: "ID",
+    },
+  },
+  {
+    value: "ZAR",
+    label: "ZAR",
+    details: {
+      country: "South Africa",
+      currencySymbol: "R",
+      currencyName: "South African Rand",
+      currencyShortForm: "ZAR",
+      icon: ZA,
+      iconName: "ZA",
     },
   },
 ];
